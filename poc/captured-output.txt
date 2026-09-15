@@ -1,0 +1,15 @@
+
+ RUN  v3.2.4 /home/claude/gemini-cli/packages/cli
+      Coverage enabled with v8
+
+(node:311) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/config/extensions/sdk-default-allow.security-repro.test.ts > security repro: SDK ships PolicyDecision.ALLOW as its default > write_file with no matching rule is silently ALLOWED under the SDK default config 30ms
+ ✓ src/config/extensions/sdk-default-allow.security-repro.test.ts > security repro: SDK ships PolicyDecision.ALLOW as its default > control: the ENGINE'S OWN built-in default (no override) is ASK_USER, not ALLOW 0ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  08:10:19
+   Duration  12.38s (transform 2.87s, setup 5.75s, collect 8ms, tests 32ms, environment 0ms, prepare 146ms)
+
+ % Coverage report from v8
